@@ -1,10 +1,10 @@
-# INSTALLATION STEPS :
+# INSTALLATION STEPS
 
 ## Step 1 : Install NLTK
 
 Please follow steps on [NLTK Install page](http://www.nltk.org/_sources/install.txt)
 
-###### TEST :
+###### TEST
 ```
 $ python
 Python 2.7.10 (default, Feb  7 2017, 00:08:15) 
@@ -24,9 +24,9 @@ $ python
 >>> nltk.download('punkt')
 ```
 
-# EXECUTION STEPS:
+# EXECUTION STEPS
 
-## USE PYTHON:
+## USE PYTHON
 ```
 $ python test.py <INPUT_FILENAME> <SIGMA>
 $ python test.py retail_25k.dat 4
@@ -36,7 +36,7 @@ Output File : retail_25k_4.out
 ```
 
 
-## USE SHELL SCRIPT:
+## USE SHELL SCRIPT
 ```
 $./test.sh retail_25k.dat 3
 Input File : retail_25k.dat
