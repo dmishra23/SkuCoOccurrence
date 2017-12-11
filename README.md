@@ -1,29 +1,3 @@
-# INSTALLATION STEPS
-
-## Step 1 : Install NLTK
-
-Please follow steps on [NLTK Install page](http://www.nltk.org/_sources/install.txt)
-
-###### TEST
-```
-$ python
-Python 2.7.10 (default, Feb  7 2017, 00:08:15) 
-[GCC 4.2.1 Compatible Apple LLVM 8.0.0 (clang-800.0.34)] on darwin
-Type "help", "copyright", "credits" or "license" for more information.
->>> import nltk
->>> print(nltk.__version__)
-3.2.4
-```
-
-## Step 2 : Install punkt sentence tokenizer
-To download a particular dataset/models, use the nltk.download() function, e.g. if you are looking to download the punkt sentence tokenizer, use:
-
-```
-$ python
->>> import nltk
->>> nltk.download('punkt')
-```
-
 # EXECUTION STEPS
 
 ## USE PYTHON
