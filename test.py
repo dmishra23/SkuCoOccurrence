@@ -1,6 +1,4 @@
 from collections import Counter
-from nltk import FreqDist, word_tokenize
-from nltk.util import ngrams
 import itertools
 
 import sys
